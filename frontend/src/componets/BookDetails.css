@@ -1,0 +1,147 @@
+/* BookDetails Page Styling */
+
+.book-details-page {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+/* --- Book Info Card --- */
+.book-info-card {
+  background: linear-gradient(135deg, #f8f9fa, #ffffff);
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.book-info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.book-title {
+  color: #2c3e50;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.book-author {
+  color: #6c757d;
+  font-size: 1.2rem;
+}
+
+.book-meta p {
+  margin: 5px 15px;
+  display: inline-block;
+  font-weight: 500;
+  color: #444;
+}
+
+/* --- Reviews --- */
+.reviews-section {
+  margin-top: 40px;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 25px;
+}
+
+.no-reviews {
+  text-align: center;
+  background-color: #f1f3f5;
+  border-radius: 10px;
+  padding: 20px;
+  color: #666;
+}
+
+.review-card {
+  background: linear-gradient(135deg, #88e5e0, #fed6e3); /* default pastel gradient */
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: #2c3e50;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+.review-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.review-username {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.review-comment {
+  font-style: italic;
+  color: #555;
+  margin: 10px 0;
+}
+
+.review-description {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.stars-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Highlight user’s own review */
+.border-success-highlight {
+  border: 2px solid #28a745;
+  border-radius: 12px;
+}
+
+/* --- Add Review Section --- */
+.add-review-card {
+  background: #f8f9fa;
+  border-radius: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+.add-review-card:hover {
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+}
+
+.rating-box {
+  text-align: center;
+}
+
+.rating-stars {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+textarea.form-control {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+textarea.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+.btn-primary {
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
