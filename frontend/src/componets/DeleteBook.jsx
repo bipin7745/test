@@ -19,8 +19,8 @@ export default function DeleteBook({ bookId, onClose, refreshBooks }) {
   return (
     <div className="custom-modal">
       <div className="custom-modal-content">
-        <h2>Confirm Delete</h2>
-        <p>Are you sure you want to delete this book?</p>
+        <h2>Confirm Delete </h2>
+        <p>Are You sure you want to delete this book?</p>
         <div className="d-flex justify-content-end">
           <button className="btn btn-secondary me-2" onClick={onClose}>
             Cancel
